@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+
+.container{
+    min-height: 200px;
+    width: 100%;
+    background-color: #5b504e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar{
+
+}
+
+.box{
+    height: 100px;
+    width: 150px;
+    background-color: #6a49bd;
+    margin: 20px 80px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.box2{
+    height: 20px;
+    width: 100%;
+    background-color: #c654e5;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    height: 20px;
+    flex-direction: column;
+    display: flex;
+    background-color: red;
+    align-self: flex-end;
+}
+.rectangle{
+    height: 200px;
+    width: 100%;
+    background-color: #c654e5;
+    background-image: url("https://preview.redd.it/0rmaq8z5voc61.jpg?width=960&crop=smart&auto=webp&s=18ad2f08b3317fd34494fa672e52739daa952acf");
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.rectangle2{
+    height: 150px;
+    width: 100%;
+    background-color: #c654e5;
+    margin: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box4{
+    height: 220px;
+    width: 300px;
+    background-color: #6a49bd;
+    margin: 20px 50px 80px 55px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+nav{
+
+    float: right;
+    height: 25px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #c654e5;
+    border-bottom: black;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 8px #888888;
+    padding: 8px;
+    position: fixed;
+    top:0;
+    left:50px;
+
+}
